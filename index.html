@@ -46,14 +46,14 @@
   <body class="font-family">
     <header>
       <!-- nav bar starts -->
-      <nav class="flex items-center justify-between flex-col p-4 md:px-16 md:py-8 md:flex-row">
+      <nav class="flex items-center justify-between flex-col p-4 md:px-16 md:py-5 md:flex-row">
         <!-- logo -->
         <div>
-          <h1 class="text-xl font-bold"><span class="text-gradStart">Tea</span> House</h1>
+          <h1 class="text-2xl font-bold"><span class="text-gradStart">Tea</span> House</h1>
         </div>
         <!-- menu item container -->
-        <ul class="flex  flex-col font-semibold gap-1 md:gap-8 md:flex-row">
-          <li><a class="hover:text-gradStart"  href="">Home</a></li>
+        <ul class="flex  flex-col text-center font-semibold gap-1 md:gap-8 md:flex-row">
+          <li><a class="hover:text-gradStart" href="">Home</a></li>
           <li><a class="hover:text-gradStart" href="">Shop</a></li>
           <li><a class="hover:text-gradStart" href="">Contact</a></li>
           <li><a class="hover:text-gradStart" href="">About</a></li>
@@ -61,6 +61,33 @@
       </nav>
       <!-- nav bar ends -->
     </header>
+
+    <!-- hero section starts -->
+    <section>
+      <div class="hero">
+        <div class="flex items-center flex-col gap-9 px-3 lg:flex-row-reverse">
+         <div>
+          <img src="./images/banner.png" class=" rounded-lg"/>
+          <!-- badge 5 star rating -->
+          <div class="flex items-center rounded-xl relative -mt-28 ml-24 justify-center  py-2 gap-2 shadow-xl md:gap-4 bg-white w-1/2 md:py-3 md:max-w-[255px]">
+            <i class="fas fa-star text-2xl text-amber-400"></i>
+            <div>
+              <h4 class=" font-black text-xl md:text-2xl">5.00</h4>
+              <p class="text-gray-400 font-bold">Trust Pilot Ratings</p>
+            </div>
+          </div>
+         </div>
+          <div>
+            <h1 class="font-bold text-2xl md:text-7xl">It's good <br>
+              tea time at The <br>
+              Tea House</h1>
+            <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="btn text-white bg-gradient-to-r from-gradStart to-gradEnd">Explore More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends -->
     <main>
 
     </main>
