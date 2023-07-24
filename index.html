@@ -35,7 +35,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              gradStart: "#FF8938",
+              gradEnd: "#F00",
             },
           },
         },
@@ -43,6 +44,28 @@
     </script>
   </head>
   <body class="font-family">
-    
+    <header>
+      <!-- nav bar starts -->
+      <nav class="flex items-center justify-between flex-col p-4 md:px-16 md:py-8 md:flex-row">
+        <!-- logo -->
+        <div>
+          <h1 class="text-xl font-bold"><span class="text-gradStart">Tea</span> House</h1>
+        </div>
+        <!-- menu item container -->
+        <ul class="flex  flex-col font-semibold gap-1 md:gap-8 md:flex-row">
+          <li><a class="hover:text-gradStart"  href="">Home</a></li>
+          <li><a class="hover:text-gradStart" href="">Shop</a></li>
+          <li><a class="hover:text-gradStart" href="">Contact</a></li>
+          <li><a class="hover:text-gradStart" href="">About</a></li>
+        </ul>
+      </nav>
+      <!-- nav bar ends -->
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
